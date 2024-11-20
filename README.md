@@ -1,10 +1,9 @@
-使用fofa进行搜索socks5，需要key，如果没有key可以使用下面的语法进行查询
+使用fofa进行搜索socks5，需要key，支持无key，无key可以将key设为空然后可以使用下面的语法进行查询后导出到fofa_results.txt
 
 ```
 protocol=="socks5" && "Version:5 Method:No Authentication(0x00)" && country="CN"
 ```
 
-将查询后的导出到fofa_results.txt
 
 示范格式
 
